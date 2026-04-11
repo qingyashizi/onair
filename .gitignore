@@ -1,0 +1,11 @@
+# 编译产物
+*.exe
+*.o
+*.obj
+build/
+
+# 运行配置
+*.ini
+
+# IDE
+.vscode/
