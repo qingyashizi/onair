@@ -21,11 +21,12 @@ When the device is released, the OSD fades out gracefully. No menus to open, no 
 
 ## Screenshots
 
-*Right-click the tray icon and choose **Preview OSD** to see the animated overlay in action without needing an active mic or camera.*
+| Dark Mode | Light Mode |
+|-----------|------------|
+| ![Dark mode — mic and camera active](dark%20two.png) | ![Light mode — mic and camera active](ligth%20two.png) |
 
 ## Features
 
-- **Real-time detection** — polls Windows CapabilityAccessManager registry every 800 ms
 - **Animated OSD overlay** — smooth fade in/out, rendered with GDI+ in the bottom-right corner
 - **Shows app name(s)** — displays which app(s) are currently using your mic or camera
 - **Simultaneous mic + camera** — side-by-side panel when both devices are active at once
@@ -36,7 +37,6 @@ When the device is released, the OSD fades out gracefully. No menus to open, no 
 - **Start with Windows** — one-click toggle in the tray menu (writes to HKCU Run key)
 - **OSD preview mode** — right-click tray → Preview OSD, for quick visual testing
 - **DPI-aware** — Per-Monitor DPI V2, looks crisp on HiDPI / 4K displays
-- **Single instance** — a mutex prevents multiple copies from running
 - **~41 KB** — single `.exe`, no installer, no runtime dependencies
 
 ## Requirements
